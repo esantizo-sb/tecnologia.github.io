@@ -1,0 +1,106 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colegio Campo Real - Portal Educativo</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <i class="fas fa-graduation-cap"></i>
+        <span>Colegio Campo Real</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#plataformas">Plataformas</a></li>
+        <li><a href="#clases">Clases</a></li>
+        <li><a href="#soporte">Soporte</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="inicio">
+    <h1>Bienvenidos al Portal Educativo</h1>
+    <p>Tu ventana al aprendizaje digital</p>
+  </section>
+
+  <section class="platforms" id="plataformas">
+    <h2>Nuestras Plataformas</h2>
+    <div class="platform-grid">
+      <a href="https://app.formative.com/" class="platform-card" target="_blank">
+        <i class="fas fa-tasks"></i>
+        <h3>Formative</h3>
+        <p>Plataforma de evaluación y seguimiento</p>
+      </a>
+      <a href="https://classroom.google.com/" class="platform-card" target="_blank">
+        <i class="fas fa-chalkboard"></i>
+        <h3>Google Classroom</h3>
+        <p>Gestión de clases virtuales</p>
+      </a>
+      <a href="https://meet.google.com/" class="platform-card" target="_blank">
+        <i class="fas fa-video"></i>
+        <h3>Google Meet</h3>
+        <p>Videoconferencias educativas</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="class-codes" id="clases">
+    <h2>Códigos de Clase</h2>
+    <div class="class-grid" id="classGrid">
+      <!-- Populated by JavaScript -->
+    </div>
+  </section>
+
+  <section class="support-section" id="soporte">
+    <h2>Soporte Técnico</h2>
+    <div class="support-options">
+      <div class="support-card">
+        <i class="fas fa-envelope"></i>
+        <h3>Correo Electrónico</h3>
+        <p>Contáctanos directamente por correo:</p>
+        <a href="mailto:support@soporteit-camporeal.atlassian.net" class="support-link" target="_blank">
+          support@soporteit-camporeal.atlassian.net
+        </a>
+        <p class="support-note">Se abrirá en una nueva ventana</p>
+      </div>
+      
+      <div class="support-card">
+        <i class="fas fa-ticket-alt"></i>
+        <h3>Portal de Soporte</h3>
+        <p>Crea un ticket en nuestro portal:</p>
+        <a href="https://soporteit-camporeal.atlassian.net/servicedesk/customer/portal/1" class="support-link" target="_blank">
+          Portal de Soporte Técnico
+        </a>
+        <p class="support-note">Necesitarás registrarte con una cuenta para solicitar soporte</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contacto">
+    <h2>Contacto</h2>
+    <div class="contact-form">
+      <form id="contactForm">
+        <input type="text" placeholder="Nombre" required>
+        <input type="email" placeholder="Correo electrónico" required>
+        <textarea placeholder="Mensaje" rows="5" required></textarea>
+        <button type="submit">Enviar Mensaje</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>Colegio Campo Real - Educación de Calidad</p>
+    <div class="designer-credit">
+      Este sitio web ha sido diseñado por Elvis Santizo. 2025. Todos los derechos sobre los elementos visuales, gráficos y códigos pertenecen a Elvis Santizo y están protegidos por las leyes de propiedad intelectual.
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
